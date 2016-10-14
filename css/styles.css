@@ -1,23 +1,54 @@
+/*Basic Page Styling*/
 body{
   background-color: #000;
   background-image: url('../img/about-bg.jpg');
   background-attachment: fixed;
   background-size:cover;
+  margin: 1% 2%;
+}
+nav{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.2em
+
+}
+.centering {
+  text-align: center;
 }
 .title{
   text-align: center;
 }
-.rows{
-
-
-}
+/*about me section*/
 .about-me{
-  /*float:left;*/
   background-color: rgba(0,0,0,.2);
   max-height: 100%;
+  padding: 5px 5px 5px 15px;
+  color: #000;
+  margin-bottom: 10px;
 }
 .about-me img{
+  display:block;
+  float: left;
+  padding: 10px 10px 10px 10px;
   height:100px;
   width: 100px;
   border-radius: 100%;
+}
+
+
+/*projects section*/
+.project-section h2{
+  text-align: center;
+}
+.panel-heading{
+  background-color: rgba(0,0,0,.2);
+}
+.project-section{
+
+}
+.project{
+  background-color: rgba(0,0,0,.2);
+  color:#fff;
+  margin: 0 5px 5px 0;
+
 }

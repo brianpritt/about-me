@@ -3,22 +3,29 @@ body{
   background-color: #000;
   background-image: url('../img/about-bg.jpg');
   background-attachment: fixed;
-  background-size:cover;
+  background-size: cover;
   margin: 1% 2%;
-  display: table;
 }
 nav{
   margin-bottom: 10px;
   font-size: 1.2em
 }
+nav a{
+  padding: 2px 10px;
+}
 .centering, .title, nav {
   text-align: center;
 }
 
+/*Contact Me*/
+.contact-me {
+  display: block;
+  margin: 0 auto;
+}
 
 /*about me section*/
 .about-me{
-  background-color: rgba(0,0,0,.2);
+  background-color: rgba(0,0,0,.2); /*used rgba so I could change the alpha layer and not make the forrground transparent by adjusting opacity*/
   max-height: 100%;
   padding: 5px 5px 5px 15px;
   color: rgba(0,0,0,.7);
@@ -35,33 +42,29 @@ nav{
 .about-container ol, .about-container ul{
   list-style-type: none;
 }
-.about-container, .project p{
+.about-container , .project p{
   color: white;
   opacity: .7;
 }
 .employment-list{
   margin-left: -78px
 }
+.interests ul{
+  margin-left: -38px;
+}
 
 /*PROJECTS SECTION*/
 .project-section{
   color: rgba(0,0,0,.6);
 }
-.project-section h2{
+.project-section h2, .p-header{
   text-align: center;
 }
-.panel-heading, .project{
+.panel-heading,.future{
   background-color: rgba(0,0,0,.2);
-}
-.project{
-
-}
-.project1, .project2{
-  border-right: 5px, solid, black;
 }
 .p-header{
   font-size: 1.2em;
-  text-align: center;
 }
 .pro-name{
   font-style: oblique;
@@ -69,9 +72,15 @@ nav{
 .future {
   margin-top: 10px;
 }
+.lang
+{
+  color: coral;
+}
+
+/*Media Queries*/
 @media (max-width:770px) {
   .future p {
-    color: lightgrey;
+    color: white;
+    opacity: .7
   }
-
 }

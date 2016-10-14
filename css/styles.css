@@ -5,50 +5,73 @@ body{
   background-attachment: fixed;
   background-size:cover;
   margin: 1% 2%;
+  display: table;
 }
 nav{
-  text-align: center;
   margin-bottom: 10px;
   font-size: 1.2em
+}
+.centering, .title, nav {
+  text-align: center;
+}
 
-}
-.centering {
-  text-align: center;
-}
-.title{
-  text-align: center;
-}
+
 /*about me section*/
 .about-me{
   background-color: rgba(0,0,0,.2);
   max-height: 100%;
   padding: 5px 5px 5px 15px;
-  color: #000;
+  color: rgba(0,0,0,.7);
   margin-bottom: 10px;
 }
 .about-me img{
   display:block;
   float: left;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   height:100px;
   width: 100px;
   border-radius: 100%;
 }
+.about-container ol, .about-container ul{
+  list-style-type: none;
+}
+.about-container{
+  color: white;
+  opacity: .7;
+}
+.employment-list{
+  margin-left: -78px
+}
 
-
-/*projects section*/
+/*PROJECTS SECTION*/
+.project-section{
+  color: rgba(0,0,0,.6);
+}
 .project-section h2{
   text-align: center;
 }
-.panel-heading{
+.panel-heading, .project{
   background-color: rgba(0,0,0,.2);
-}
-.project-section{
-
 }
 .project{
-  background-color: rgba(0,0,0,.2);
-  color:#fff;
-  margin: 0 5px 5px 0;
+
+}
+.project1, .project2{
+  border-right: 5px, solid, black;
+}
+.p-header{
+  font-size: 1.2em;
+  text-align: center;
+}
+.pro-name{
+  font-style: oblique;
+}
+.future {
+  margin-top: 10px;
+}
+@media (max-width:770px) {
+  .future p {
+    color: lightgrey;
+  }
 
 }

@@ -24,7 +24,7 @@ nav{
   color: rgba(0,0,0,.7);
   margin-bottom: 10px;
 }
-.about-me img{
+.about-me img, .contact-me img{
   display:block;
   float: left;
   padding: 10px;
@@ -35,7 +35,7 @@ nav{
 .about-container ol, .about-container ul{
   list-style-type: none;
 }
-.about-container{
+.about-container, .project p{
   color: white;
   opacity: .7;
 }

@@ -1,0 +1,23 @@
+body{
+  background-color: #000;
+  background-image: url('../img/about-bg.jpg');
+  background-attachment: fixed;
+  background-size:cover;
+}
+.title{
+  text-align: center;
+}
+.rows{
+
+
+}
+.about-me{
+  /*float:left;*/
+  background-color: rgba(0,0,0,.2);
+  max-height: 100%;
+}
+.about-me img{
+  height:100px;
+  width: 100px;
+  border-radius: 100%;
+}
